@@ -1,0 +1,30 @@
+nav.defaultNav {
+  /* display: none; */
+}
+nav.defaultNav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 18px;
+}
+nav.defaultNav ul li {
+  margin-right: 24px;
+}
+nav.defaultNav ul li a {
+  color: #000;
+  text-decoration: none;
+}
+
+nav.defaultNav ul li a:hover {
+  border-bottom: 1px solid #004dd5;
+  cursor: pointer;
+}
+
+@media (max-width: 1024px) {
+  nav.defaultNav {
+    display: none;
+  }
+}

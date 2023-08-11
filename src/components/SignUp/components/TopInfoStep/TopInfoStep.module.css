@@ -1,0 +1,17 @@
+.topInfoStep {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  margin-top: 28px;
+}
+.topInfoStep .itemStep {
+  background-color: #66c314;
+  padding: 6px 16px;
+  color: #fff;
+  margin-right: 24px;
+  font-family: 'Circe Bold';
+}
+
+.topInfoStep .itemInfo {
+  font-size: 20px;
+}

@@ -1,0 +1,29 @@
+.main {
+}
+.main .innerMain {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.main .innerMain .left {
+  width: 100%;
+  max-width: 320px;
+  margin-right: 40px;
+}
+
+.main .innerMain .right {
+  width: 100%;
+}
+@media (max-width: 1440px) {
+  .main .innerMain .left {
+    width: 100%;
+    max-width: 286px;
+    margin-right: 32px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .main .innerMain .left {
+    display: none;
+  }
+}

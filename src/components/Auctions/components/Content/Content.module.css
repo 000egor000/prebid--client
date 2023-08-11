@@ -1,0 +1,89 @@
+.content {
+  display: flex;
+  border-bottom: 1px solid #d3d8e5;
+  margin-top: 40px;
+}
+.content h3 {
+  font-family: 'Circe Bold';
+  font-size: 24px;
+  color: #000;
+  margin-right: 54px;
+}
+
+.content .innerContent {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.content .innerContent ul.item {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  border-bottom: 1px solid #d3d8e5;
+
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  padding: 20px;
+}
+.content .innerContent ul.item:first-child {
+  padding-top: 0;
+}
+.content .innerContent ul.item:last-child {
+  border: 0;
+  padding-bottom: 56px;
+}
+.content .innerContent ul.item li {
+  display: flex;
+  flex-direction: column;
+  margin-right: 70px;
+  text-align: left;
+}
+
+.content .innerContent ul.item li span:first-child,
+.content .innerContent ul.item li div:first-child {
+  margin-bottom: 4px;
+}
+.content .innerContent ul.item li:first-child {
+  margin-right: 24px;
+}
+.content .innerContent ul.item li span.country {
+  display: inline-block;
+  padding: 10px 16px;
+  color: #fff;
+  border-radius: 4px;
+
+  min-width: 80px;
+  width: 100%;
+  text-align: center;
+}
+.content .innerContent ul.item li div.idAuction,
+.content .innerContent ul.item li span.dataEnd {
+  font-family: 'Circe Bold';
+  color: #000;
+}
+
+.content .innerContent ul.item li span.dataRest {
+  font-family: 'Circe Bold';
+  color: #3a74d0;
+}
+
+.content .innerContent ul.item li:first {
+  padding: 0;
+}
+.content .innerContent ul.item li:last-child {
+  padding-bottom: 0;
+}
+.content .innerContent ul.item li:last-child {
+  margin-right: 0;
+}
+
+.content .innerContent ul.item li button {
+  color: #ffff;
+  padding: 14px 25px;
+  background-color: #0050cf;
+  border-radius: 4px;
+}

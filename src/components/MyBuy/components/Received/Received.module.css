@@ -1,0 +1,28 @@
+.waitingRates {
+  margin-bottom: 100px;
+}
+.waitingRates .innerWaitingRates {
+}
+.waitingRates .innerWaitingRates ul.filter {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 32px;
+}
+.waitingRates .innerWaitingRates ul.filter li {
+  margin-right: 16px;
+  border-radius: 40px;
+  padding: 12px 20px;
+  cursor: pointer;
+}
+.waitingRates .innerWaitingRates ul.filter li:last-child {
+  margin-right: 0;
+}
+.waitingRates .innerWaitingRates .content {
+  display: flex;
+  /* align-items: center; */
+  flex-wrap: wrap;
+  justify-content: space-between;
+}

@@ -1,0 +1,10 @@
+.pageTitle {
+  margin: 40px 0;
+}
+.pageTitle .innerPageTitle h3 {
+  font-size: 42px;
+
+  font-family: 'Circe Bold';
+  text-align: left;
+  color: #000000;
+}

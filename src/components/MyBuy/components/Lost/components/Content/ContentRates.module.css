@@ -1,0 +1,77 @@
+.contentRates {
+  width: 50%;
+  max-width: 740px;
+  height: auto;
+  margin-bottom: 24px;
+}
+
+.contentRates .innerContentRates {
+  display: flex;
+  border: 1px solid #d3d8e6;
+  border-radius: 12px;
+  overflow: hidden;
+  max-height: 176px;
+  height: 100%;
+}
+.contentRates .innerContentRates .left {
+  width: 35%;
+}
+.contentRates .innerContentRates .left img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+.contentRates .innerContentRates .right {
+  padding: 12px 32px;
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.contentRates .innerContentRates .right .top h3 {
+  text-align: left;
+  font-size: 18px;
+
+  font-family: 'Circe Bold';
+  color: #000;
+}
+.contentRates .innerContentRates .right .top ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 14px;
+  color: #6b7a99;
+  flex-wrap: wrap;
+}
+
+.contentRates .innerContentRates .right .top ul li:first-child {
+  /* margin-right: 16px; */
+  border-right: 1px solid #6b7a99;
+  padding-right: 8px;
+}
+.contentRates .innerContentRates .right .top ul li:last-child {
+  padding-left: 8px;
+}
+.contentRates .innerContentRates .right .top ul li span:last-child {
+  margin-left: 8px;
+  color: #0f0f14;
+  font-weight: 400;
+  font-size: 16px;
+}
+.contentRates .innerContentRates .right .bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.contentRates .innerContentRates .right .bottom span > span {
+  font-family: 'Circe Bold';
+  color: #000;
+}
+.contentRates .innerContentRates .right .bottom button {
+  background-color: #66c314;
+  padding: 8px 24px;
+  color: #ffff;
+}

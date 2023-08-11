@@ -1,0 +1,19 @@
+@font-face {
+  font-family: 'Circe Regular';
+  src: url('circe-regular.eot'); /* IE9 Compat Modes */
+  src: url('circe-regular.eot?#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */ url('circe-regular.woff') format('woff'),
+    /* Pretty Modern Browsers */ url('circe-regular.ttf') format('truetype'); /* Safari, Android, iOS */
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Circe Bold';
+  src: url('circe-bold.eot'); /* IE9 Compat Modes */
+  src: url('circe-bold.eot?#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */ url('circe-bold.woff') format('woff'),
+    /* Pretty Modern Browsers */ url('circe-bold.ttf') format('truetype'); /* Safari, Android, iOS */
+  font-weight: 700;
+  font-style: normal;
+}

@@ -1,0 +1,11 @@
+.topInfoStep {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.topInfoStep .itemStep {
+  background-color: #66c314;
+  padding: 6px 16px;
+  color: #fff;
+  margin-right: 24px;
+}

@@ -1,0 +1,17 @@
+.breadCrumb {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 25px 0 30px;
+}
+.breadCrumb .innerBreadCrumb {
+  display: flex;
+  align-items: center;
+}
+
+.breadCrumb .innerBreadCrumb span {
+  color: #0065b0;
+  margin-left: 10px;
+  font-size: 16px;
+}

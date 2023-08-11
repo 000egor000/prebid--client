@@ -1,0 +1,12 @@
+.topInfo {
+  text-align: left;
+}
+.topInfo .innerTopInfo {
+  color: #6b7a99;
+}
+
+.topInfo .innerTopInfo span {
+  font-weight: 700;
+  font-family: 'Circe Bold';
+  color: #000;
+}

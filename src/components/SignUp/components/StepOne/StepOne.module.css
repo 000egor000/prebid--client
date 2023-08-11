@@ -1,0 +1,25 @@
+.stepOne {
+  color: #000;
+}
+
+.stepOne .innerStepOne {
+}
+.stepOne .innerStepOne .onePart {
+  display: flex;
+  align-items: center;
+}
+.stepOne .innerStepOne .onePart .itemStep {
+  background-color: #66c314;
+  padding: 6px 16px;
+  color: #fff;
+  margin-right: 24px;
+}
+.stepOne .innerStepOne div[class='rs-form-group'] {
+  margin-bottom: 12px;
+}
+.stepOne .innerStepOne div[class='rs-form-group'] p {
+  margin-bottom: 24px;
+}
+.stepOne .innerStepOne div[class='rs-form-group'] p.nameFace {
+  margin-top: 32px;
+}

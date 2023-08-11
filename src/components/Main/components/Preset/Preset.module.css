@@ -1,0 +1,70 @@
+.preset {
+  margin-bottom: 48px;
+}
+.preset .innerPreset {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.preset .innerPreset .left {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 90%;
+}
+.preset .innerPreset .left .elemBtn {
+  padding: 10px;
+  cursor: pointer;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.preset .innerPreset .left .addBtn {
+  border: 1px dotted #0050cf;
+  padding: 10px;
+  background: none;
+  color: #0050cf;
+
+  font-family: 'Circe Bold';
+  cursor: pointer;
+}
+.preset .innerPreset .left .elemBtn:last-child {
+  margin-right: 0;
+}
+
+.preset .innerPreset .right .positionPng button {
+  border: 0;
+  background: none;
+  padding: 0;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.preset .innerPreset .right .positionPng button:last-child {
+  margin-right: 0;
+}
+.preset .innerPreset .right .positionPng button img {
+  width: 18px;
+  height: 18px;
+}
+
+@media (max-width: 1440px) {
+  .preset {
+    margin-bottom: 32px;
+  }
+}
+@media (max-width: 768px) {
+  .preset .innerPreset .right {
+    display: none;
+  }
+  .preset .innerPreset .left {
+    width: 100%;
+  }
+  .preset {
+    margin-bottom: 32px;
+  }
+}
+
+@media (max-width: 375px) {
+  .preset {
+    margin-bottom: 28px;
+  }
+}

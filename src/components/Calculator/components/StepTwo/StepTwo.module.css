@@ -1,0 +1,17 @@
+.stepTwo {
+}
+
+.stepTwo .innerStepTwo {
+}
+
+.stepTwo .innerStepTwo .twoPart {
+  display: flex;
+  flex-direction: column;
+}
+.stepTwo .innerStepTwo .twoPart div.noteItem {
+  display: flex;
+  align-items: center;
+}
+.stepTwo .innerStepTwo .twoPart div.noteItem a {
+  cursor: pointer;
+}

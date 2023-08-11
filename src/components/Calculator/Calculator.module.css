@@ -1,0 +1,117 @@
+.rs-calculator.rs-modal-content {
+  max-width: 425px;
+  width: 100%;
+  padding: 30px 0;
+  margin: 0 auto;
+}
+
+.rs-calculator.rs-modal-content .rs-modal-header,
+.rs-calculator.rs-modal-content .rs-modal-body,
+.rs-calculator.rs-modal-content .rs-modal-footer ul {
+  padding: 0 54px;
+}
+
+.rs-calculator.rs-modal-content .rs-modal-header h4 {
+  font-family: 'Circe Bold';
+  font-style: 28px;
+  line-height: 20px;
+}
+.rs-calculator.rs-modal-content .rs-modal-header .rs-btn-close {
+  background-image: url('../../assets//closeForm.png');
+  width: 32px;
+  height: 32px;
+}
+.rs-calculator.rs-modal-content .rs-modal-header .rs-btn-close .rs-icon {
+  display: none;
+}
+
+.rs-calculator.rs-modal-content .rs-modal-body form button {
+  text-align: center;
+  padding: 12px;
+  background-color: #66c314;
+  color: #fff;
+  width: 100%;
+  margin: 12px 0 32px;
+}
+.rs-calculator.rs-modal-content .rs-modal-body form span {
+  color: #000000;
+  font-weight: 400;
+
+  font-size: 16px;
+}
+.rs-calculator.rs-modal-content .rs-modal-body form input {
+  margin: 4px 0;
+}
+.rs-calculator.rs-modal-content .rs-modal-body form .minStep {
+  color: #6b7a99;
+  font-weight: 400;
+  /* margin: 4px 0 16px; */
+  font-size: 14px;
+}
+
+.rs-calculator.rs-modal-content .rs-modal-footer .top {
+  background-color: #edf6ff;
+  border-radius: 4px;
+  border: 1px solid #d3d8e5;
+}
+.rs-calculator.rs-modal-content .rs-modal-footer .top .innerTop {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 28px 0;
+}
+.rs-calculator.rs-modal-content .rs-modal-footer .top .innerTop span {
+  font-family: 'Circe Bold';
+  font-size: 20px;
+  color: #000000;
+}
+.rs-calculator.rs-modal-content
+  .rs-modal-footer
+  .top
+  .innerTop
+  span:last-child {
+  font-size: 40px;
+}
+
+.rs-calculator.rs-modal-content .rs-modal-footer ul {
+  list-style: none;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 32px;
+}
+.rs-calculator.rs-modal-content .rs-modal-footer ul li {
+  width: 100%;
+  display: flex;
+  text-align: left;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #6b7a99;
+  padding: 12px 0;
+}
+
+.rs-calculator.rs-modal-content .rs-modal-footer ul span:last-child {
+  font-family: 'Circe Bold';
+}
+.rs-calculator.rs-modal-content .rs-modal-footer ul li:first-child {
+  padding-top: 0;
+}
+.rs-calculator.rs-modal-content .rs-modal-footer ul li:last-child {
+  /* padding-bottom: 0; */
+}
+
+/* .rs-calculator.rs-modal-content .rs-modal-footer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.rs-calculator.rs-modal-content .rs-modal-footer button {
+  padding: 14px 25px;
+  background-color: #004dd5;
+  border-radius: 4px;
+  color: #fff;
+
+  text-align: left;
+} */

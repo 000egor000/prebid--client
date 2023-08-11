@@ -1,0 +1,114 @@
+.additionalInformation {
+  border-top: 1px solid #6b7a99;
+  border-bottom: 1px solid #6b7a99;
+  padding: 55px 0;
+}
+.additionalInformation h6 {
+  margin-bottom: 30px;
+  font-size: 26px;
+
+  font-family: 'Circe Bold';
+  color: #000;
+  text-align: left;
+}
+
+.additionalInformation .innerAdditionalInformation {
+  display: flex;
+
+  flex-direction: column;
+}
+.additionalInformation .innerAdditionalInformation ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+.additionalInformation .innerAdditionalInformation ul li {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 30%;
+  max-width: 400px;
+}
+/* .additionalInformation .innerAdditionalInformation ul li:nth-child(2n) {
+  margin: 0 80px;
+} */
+/* .additionalInformation .innerAdditionalInformation ul li:last-child,
+.additionalInformation .innerAdditionalInformation ul li:nth-child(3n) {
+  margin-right: 0;
+} */
+.additionalInformation .innerAdditionalInformation ul li label {
+  margin-bottom: 8px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #000;
+}
+.additionalInformation
+  .innerAdditionalInformation
+  ul:last-child
+  li:nth-child(2n),
+.additionalInformation
+  .innerAdditionalInformation
+  ul:last-child
+  li:nth-child(3n) {
+  visibility: hidden;
+}
+
+/*  */
+.additionalInformation .innerAdditionalInformation ul li.addFile input {
+  display: none;
+}
+
+.additionalInformation .innerAdditionalInformation ul li.addFile {
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+}
+
+.additionalInformation .innerAdditionalInformation ul li.addFile .first,
+.additionalInformation .innerAdditionalInformation ul li.addFile .second {
+  width: 50%;
+}
+
+.additionalInformation .innerAdditionalInformation ul li.addFile .first {
+  display: flex;
+  flex-direction: column;
+  /* margin-right: 25px; */
+}
+.additionalInformation .innerAdditionalInformation ul li.addFile .second label {
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  width: 100%;
+  margin-left: 25px;
+}
+.additionalInformation
+  .innerAdditionalInformation
+  ul
+  li.addFile
+  .second
+  label
+  img {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}
+/* .additionalInformation .innerAdditionalInformation ul li.addFile .second {
+  text-align: right;
+} */
+@media (max-width: 768px) {
+  .additionalInformation .innerAdditionalInformation ul li {
+    width: 45%;
+  }
+}
+
+@media (max-width: 375px) {
+  .additionalInformation .innerAdditionalInformation ul li {
+    width: 100%;
+  }
+}

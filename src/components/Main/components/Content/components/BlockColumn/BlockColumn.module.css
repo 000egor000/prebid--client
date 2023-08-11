@@ -1,0 +1,160 @@
+.blockColumn {
+  margin: 42px 0 70px 0;
+}
+.blockColumn .innerBlockColumn {
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.blockColumn .innerBlockColumn .itemBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #edeff3;
+  border-radius: 8px;
+  width: 31.5%;
+  /* max-width: 364px; */
+  height: auto;
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+
+.blockColumn .innerBlockColumn .itemBlock img {
+  width: 100%;
+  object-fit: cover;
+  height: 170px;
+}
+
+.blockColumn .innerBlockColumn .itemBlock .blockImg {
+  position: relative;
+}
+.blockColumn .innerBlockColumn .itemBlock .blockImg img {
+  width: 100%;
+  height: 170px;
+  object-fit: cover;
+}
+.blockColumn .innerBlockColumn .itemBlock .blockImg span img {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 48px;
+  height: 48px;
+  cursor: pointer;
+}
+
+.blockColumn .innerBlockColumn .itemBlock .top,
+.blockColumn .innerBlockColumn .itemBlock .groupRest {
+  width: 100%;
+}
+.blockColumn .innerBlockColumn .itemBlock .groupRest {
+  padding: 12px 24px 24px;
+}
+
+.blockColumn .innerBlockColumn .itemBlock .middle h6 {
+  margin-bottom: 12px;
+  font-size: 18px;
+
+  font-family: 'Circe Bold';
+  text-align: left;
+}
+
+.blockColumn .innerBlockColumn .itemBlock .middle ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 48px;
+}
+.blockColumn .innerBlockColumn .itemBlock .middle ul li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #d9d9d9;
+  padding: 8px 0;
+  color: #6b7a99;
+}
+
+.blockColumn .innerBlockColumn .itemBlock .middle ul li span:last-child {
+  color: #000;
+}
+.blockColumn .innerBlockColumn .itemBlock .middle ul li span a {
+  text-decoration: none;
+  color: #0050cf;
+  border-bottom: 1px solid #0050cf;
+}
+
+.blockColumn .innerBlockColumn .itemBlock .bottom .first {
+  margin-bottom: 16px;
+}
+
+.blockColumn .innerBlockColumn .itemBlock .bottom .first p {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  font-size: 14px;
+  color: #000;
+  font-weight: 400;
+}
+.blockColumn .innerBlockColumn .itemBlock .bottom .first p span {
+  font-size: 18px;
+
+  font-family: 'Circe Bold';
+}
+.blockColumn .innerBlockColumn .itemBlock .bottom .first button {
+  padding: 8px 24px;
+  color: #fff;
+  background-color: #d3d8e6;
+  border-radius: 4px;
+  font-family: 'Circe Bold';
+}
+
+.blockColumn .innerBlockColumn .itemBlock .bottom .first {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.blockColumn .innerBlockColumn .itemBlock .bottom .second button {
+  background: none;
+  color: #004dd5;
+  border-bottom: 1px solid #0050cf;
+
+  font-size: 18px;
+}
+@media (max-width: 1440px) {
+  .blockColumn .innerBlockColumn .itemBlock .bottom .first button {
+    padding: 8px 16px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .blockColumn .innerBlockColumn .itemBlock {
+    width: 48%;
+    height: auto;
+    margin-bottom: 24px;
+  }
+  .blockColumn .innerBlockColumn .itemBlock .bottom .first button {
+    padding: 8px 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .blockColumn {
+    margin: 24px 0 56px 0;
+  }
+
+  .blockColumn .innerBlockColumn .itemBlock {
+    width: 100%;
+
+    height: auto;
+    margin-bottom: 24px;
+  }
+}
+
+@media (max-width: 375px) {
+  .blockColumn .innerBlockColumn {
+    display: flex;
+
+    flex-direction: column;
+  }
+}

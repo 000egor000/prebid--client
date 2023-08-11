@@ -1,0 +1,63 @@
+.auctions {
+  margin-bottom: 100px;
+}
+
+/* .auctions .innerAuctions .blockfilter {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+.auctions .innerAuctions .dateFilter {
+  display: flex;
+  align-items: baseline;
+}
+.auctions .innerAuctions .dateFilter span {
+  color: #000;
+  margin-right: 24px;
+  cursor: pointer;
+}
+.auctions .innerAuctions .dateFilter label span {
+  margin: 0 24px;
+  position: relative;
+}
+.auctions .innerAuctions .dateFilter label span::after {
+  content: '';
+  background-color: #000;
+  width: 1px;
+  height: -webkit-fill-available;
+  position: absolute;
+  top: 0;
+  left: -24px;
+}
+
+.auctions .innerAuctions .dateFilter .rs-picker {
+  border: 0;
+  border-bottom: 1px solid red;
+  border-radius: 0;
+}
+.auctions .innerAuctions ul.filter {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 32px;
+}
+.auctions .innerAuctions ul.filter li {
+  margin-right: 16px;
+  border-radius: 40px;
+  padding: 12px 20px;
+  cursor: pointer;
+}
+.auctions .innerAuctions ul.filter li:last-child {
+  margin-right: 0;
+} */
+
+.auctions .innerAuctions .content {
+  display: flex;
+  /* align-items: center; */
+  /* flex-wrap: wrap; */
+  /* justify-content: space-between; */
+  flex-direction: column;
+  width: 100%;
+}

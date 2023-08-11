@@ -1,0 +1,15 @@
+.stepOne {
+}
+
+.stepOne .innerStepOne {
+}
+.stepOne .innerStepOne .onePart {
+  display: flex;
+  align-items: center;
+}
+.stepOne .innerStepOne .onePart .itemStep {
+  background-color: #66c314;
+  padding: 6px 16px;
+  color: #fff;
+  margin-right: 24px;
+}

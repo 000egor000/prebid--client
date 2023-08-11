@@ -1,0 +1,87 @@
+.topInfo {
+}
+.topInfo .innerTopInfo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.topInfo .innerTopInfo .left {
+  color: #6b7a99;
+  display: flex;
+  align-items: center;
+}
+
+.topInfo .innerTopInfo .left button {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #0050cf;
+  color: #fff;
+  font-size: 16px;
+
+  font-family: 'Circe Bold';
+  margin-right: 34px;
+  display: none;
+}
+
+.topInfo .innerTopInfo .left button img {
+  margin-left: 8px;
+  width: 16px;
+  height: auto;
+}
+
+.topInfo .innerTopInfo .left span {
+  font-size: 20px;
+  margin-left: 16px;
+  font-family: 'Circe Bold';
+  color: #0f0f14;
+}
+.topInfo .innerTopInfo .right ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.topInfo .innerTopInfo .right ul li {
+  padding: 5px;
+  border: 1px solid #6b7a99;
+  color: #6b7a99;
+  border-radius: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 16px;
+}
+.topInfo .innerTopInfo .right ul li.later {
+  border: 0;
+}
+.topInfo .innerTopInfo .right ul li img {
+  cursor: pointer;
+}
+.topInfo .innerTopInfo .right ul li:last-child {
+  margin-right: 0;
+  cursor: pointer;
+}
+.topInfo .innerTopInfo .right ul li span {
+  margin-right: 5px;
+}
+
+@media (max-width: 1280px) {
+  .topInfo .innerTopInfo .left button {
+    display: flex;
+  }
+}
+@media (max-width: 1024px) {
+  .topInfo .innerTopInfo .right {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .topInfo .innerTopInfo .right {
+    display: none;
+  }
+}

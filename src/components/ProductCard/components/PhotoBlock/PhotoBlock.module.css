@@ -1,0 +1,146 @@
+.photoModal {
+  /* width: 60%;
+  max-width: 656px;
+  margin-right: 32px; */
+}
+.photoModal .innerPhotoModal {
+  display: flex;
+  flex-direction: column;
+}
+.photoModal .innerPhotoModal .top {
+  position: relative;
+}
+.photoModal .innerPhotoModal .top img {
+  width: 100vw;
+  object-fit: cover;
+  height: 100vh;
+  border-radius: 4px;
+  max-height: 465px;
+}
+
+.photoModal .innerPhotoModal .top span.zoom {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  width: 46px;
+  height: 46px;
+  cursor: pointer;
+  background-image: url('../../../../assets/lens.png');
+}
+
+.photoModal .innerPhotoModal .top span.left,
+.photoModal .innerPhotoModal .top span.right {
+  position: absolute;
+  top: 50%;
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+}
+.photoModal .innerPhotoModal .top span.left {
+  left: 12px;
+  background-image: url('../../../../assets/leftArray.png');
+}
+
+.photoModal .innerPhotoModal .top span.right {
+  right: 12px;
+  background-image: url('../../../../assets/rightArray.png');
+}
+
+.photoModal .innerPhotoModal .bottom {
+  display: flex;
+  flex-direction: column;
+  margin-top: 16px;
+}
+.photoModal .innerPhotoModal .bottom ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+}
+.photoModal .innerPhotoModal .bottom ul li {
+  cursor: pointer;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  width: calc((100% - 32px) / 5);
+}
+.photoModal .innerPhotoModal .bottom ul li img {
+  width: 100%;
+  max-height: 67px;
+  /* height: 100%; */
+  border-radius: 2px;
+  object-fit: cover;
+}
+.photoModal .innerPhotoModal .bottom ul li:nth-child(5n) {
+  margin-right: 0;
+  margin-left: 0;
+}
+.photoModal .innerPhotoModal .bottom .groupBtn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 8px;
+}
+.photoModal .innerPhotoModal .bottom .groupBtn .one {
+  margin-right: 4px;
+  cursor: pointer;
+}
+.photoModal .innerPhotoModal .bottom .groupBtn .two {
+}
+.photoModal .innerPhotoModal .bottom .groupBtn .two button {
+  background: none;
+  border-bottom: 1px solid #004dd5;
+  color: #004dd5;
+  position: relative;
+}
+.photoModal .innerPhotoModal .bottom .groupBtn .two button:first-child {
+  margin-right: 33px;
+}
+.photoModal .innerPhotoModal .bottom .groupBtn .two button:first-child:after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 1px;
+  height: 24px;
+  background-color: #004dd5;
+  top: 0;
+  right: -16px;
+}
+
+@media (max-width: 1280px) {
+  .productCard .innerProductCard {
+    flex-direction: column;
+  }
+  .one {
+    width: 100%;
+    margin-right: 0;
+  }
+  .blockInfo {
+    margin-top: 32px;
+    width: 100%;
+  }
+
+  .two {
+    width: 50%;
+    margin-right: 32px;
+  }
+
+  .three {
+    width: 50%;
+    margin-right: 0;
+  }
+}
+@media (max-width: 1280px) {
+  .photoModal .innerPhotoModal .bottom .groupBtn .one,
+  .photoModal .innerPhotoModal .bottom .groupBtn .two {
+    margin: 0;
+    text-align: right;
+    width: fit-content;
+  }
+}
+@media (max-width: 768px) {
+  .photoModal .innerPhotoModal .bottom {
+    display: none;
+  }
+}

@@ -1,0 +1,164 @@
+.otherNotes {
+  /* width: 100%; */
+  /* max-width: 370px; */
+  color: #000;
+}
+/* top */
+
+.otherNotes .innerOtherNotes .top,
+.otherNotes .innerOtherNotes .bottom {
+  border: 1px solid #d3d8e5;
+  border-radius: 4px;
+}
+.otherNotes .innerOtherNotes .innerPartOne {
+  background-color: #f0f5ff;
+}
+
+.otherNotes .innerOtherNotes .top .partOne .innerPartOne {
+  padding: 15px 30px;
+  font-family: 'Circe Bold';
+}
+.otherNotes .innerOtherNotes .top .partOne h3 {
+  text-align: left;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 40px;
+}
+
+.otherNotes .innerOtherNotes .top .partOne .groupBtn {
+  display: flex;
+  align-items: center;
+  margin: 16px 0;
+}
+.otherNotes .innerOtherNotes .top .partOne .groupBtn input {
+  text-align: center;
+  padding: 12px 24px;
+}
+.otherNotes .innerOtherNotes .top .partOne .makeIns {
+  text-align: center;
+  padding: 12px;
+  background-color: #66c314;
+  color: #fff;
+  width: 100%;
+  /* max-width: 316px; */
+}
+.otherNotes .innerOtherNotes .top .partOne .infoTime {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 16px;
+}
+.otherNotes .innerOtherNotes .top .partOne .infoTime span {
+  font-family: 'Circe Bold';
+  font-size: 20px;
+}
+.otherNotes .innerOtherNotes .top .partOne .infoTime span:last-child {
+  color: #0065b0;
+}
+
+.otherNotes .innerOtherNotes .top .partOne button {
+  background: none;
+}
+.otherNotes .innerOtherNotes .top .partOne button img {
+  width: 100%;
+  max-width: 48px;
+  height: 100%;
+  max-height: 48px;
+}
+
+.otherNotes .innerOtherNotes .top .partTwo {
+  background-color: #fff;
+  padding: 15px 30px;
+}
+.otherNotes .innerOtherNotes .top .partTwo .titleName {
+  display: flex;
+  align-items: center;
+  margin: 16px 0;
+}
+
+.otherNotes .innerOtherNotes .top .partTwo .titleName span {
+  font-weight: 400;
+  font-size: 22px;
+  color: #438b03;
+  line-height: 32px;
+  position: relative;
+}
+
+.otherNotes .innerOtherNotes .top .partTwo .titleName span:last-child {
+  color: #c20316;
+  margin-left: 33px;
+}
+
+.otherNotes .innerOtherNotes .top .partTwo .titleName span:last-child::before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 1px;
+  height: 32px;
+  background-color: #004dd5;
+  top: 0;
+  left: -16px;
+}
+
+.otherNotes .innerOtherNotes .top .partTwo button {
+  background-color: #0050cf;
+  text-align: center;
+  padding: 12px;
+  width: 100%;
+  /* max-width: 316px; */
+  color: #fff;
+}
+
+/* middle */
+
+.otherNotes .innerOtherNotes .middle label {
+  display: flex;
+  align-items: center;
+  margin: 32px 0;
+  cursor: pointer;
+}
+.otherNotes .innerOtherNotes .middle label button {
+  background: none;
+  margin-left: 8px;
+  border-bottom: 1px solid #0050cf;
+  color: #0050cf;
+}
+
+/* bottom */
+
+.otherNotes .innerOtherNotes .bottom .item ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 12px;
+}
+.otherNotes .innerOtherNotes .bottom .item ul li {
+  width: 100%;
+  display: flex;
+  text-align: left;
+  align-items: center;
+  border-bottom: 1px solid #6b7a99;
+  padding: 12px 0;
+}
+.otherNotes .innerOtherNotes .bottom .item ul span {
+  width: 50%;
+}
+.otherNotes .innerOtherNotes .bottom .item ul li:first-child {
+  padding-top: 0;
+}
+.otherNotes .innerOtherNotes .bottom .item ul li span:first-child {
+  color: #6b7a99;
+}
+.otherNotes .innerOtherNotes .bottom .item ul li:last-child {
+  border: 0;
+  padding-bottom: 0;
+}
+
+@media (max-width: 768px) {
+  .otherNotes .innerOtherNotes .top .partOne .innerPartOne {
+    padding: 15px;
+  }
+}

@@ -1,0 +1,33 @@
+.stepFive {
+}
+
+.stepFive .innerStepFive {
+}
+.stepFive .innerStepFive .onePart {
+  display: flex;
+  align-items: center;
+}
+.stepFive .innerStepFive .onePart .itemStep {
+  background-color: #66c314;
+  padding: 6px 16px;
+  color: #fff;
+  margin-right: 24px;
+}
+
+.stepFive .innerStepFive .onePart {
+  display: flex;
+  align-items: center;
+}
+
+.stepFive .innerStepFive .twoPart span[class='rs-radio-wrapper'] {
+  top: 25px;
+}
+.stepFive .innerStepFive .twoPart .itemInfo {
+  padding: 12px;
+  border: 1px solid #d3d8e5;
+  border-radius: 4px;
+}
+.stepFive .innerStepFive .twoPart .itemInfo .top {
+  display: flex;
+  align-items: center;
+}

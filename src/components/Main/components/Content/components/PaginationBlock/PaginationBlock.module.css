@@ -1,0 +1,67 @@
+.paginationBlock {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #000 !important;
+  font-family: 'Circe Bold';
+}
+.paginationBlock button {
+  color: #000;
+  font-family: 'Circe Bold';
+}
+
+.paginationBlock div[class='rs-pagination-group rs-pagination-group-xs'] {
+  margin: 0 auto;
+}
+
+.paginationBlock div[class='rs-pagination rs-pagination-xs'] {
+  margin: 0 auto;
+}
+
+.paginationBlock button[class='rs-pagination-btn rs-pagination-btn-active'],
+.paginationBlock
+  button[class='rs-pagination-btn rs-pagination-btn-active']:focus {
+  background-color: #0050cf !important;
+  color: #fff;
+  transform: scale(1.2);
+}
+
+/* .paginationBlock span[class='rs-picker-toggle-value'] span:last-child {
+  display: none;
+}
+.paginationBlock div[class='rs-pagination-group-limit'] {
+  position: relative;
+}
+
+.paginationBlock div[class='rs-pagination-group-limit']::before {
+  content: 'Оторажать по';
+  width: fit-content;
+  height: auto;
+  position: absolute;
+  top: -2px;
+  left: -120px;
+  font-size: 16px;
+  font-weight: 400;
+} */
+
+.limit {
+  display: flex;
+  align-items: center;
+}
+.limit label {
+  margin-right: 12px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #252541e5;
+}
+
+/* @media (max-width: 375px) {
+  .limit {
+    display: none;
+  }
+} */
+@media (max-width: 768px) {
+  .limit {
+    display: none;
+  }
+}

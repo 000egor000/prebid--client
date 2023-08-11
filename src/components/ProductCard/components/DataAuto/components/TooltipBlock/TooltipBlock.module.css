@@ -1,0 +1,9 @@
+.rs-tooltip {
+  background-color: #ffff !important;
+  border-radius: 4px !important;
+  box-shadow: 0px 1px 12px 0px #6a7a981f !important;
+}
+
+.rs-tooltip[class*='placement-top']:after {
+  border-top-color: #ffff !important;
+}

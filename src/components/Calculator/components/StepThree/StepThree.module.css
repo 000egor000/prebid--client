@@ -1,0 +1,11 @@
+.stepThree .innerStepThree .twoPart label {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.stepThree .innerStepThree .twoPart p {
+  margin: 32px 0;
+  font-weight: 400;
+  font-size: 20px;
+}

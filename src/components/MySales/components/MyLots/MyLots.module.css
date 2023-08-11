@@ -1,0 +1,28 @@
+.activeRates {
+  margin-bottom: 100px;
+}
+.activeRates .innerActiveRates {
+}
+.activeRates .innerActiveRates ul.filter {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 32px;
+}
+.activeRates .innerActiveRates ul.filter li {
+  margin-right: 16px;
+  border-radius: 40px;
+  padding: 12px 20px;
+  cursor: pointer;
+}
+.activeRates .innerActiveRates ul.filter li:last-child {
+  margin-right: 0;
+}
+.activeRates .innerActiveRates .content {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}

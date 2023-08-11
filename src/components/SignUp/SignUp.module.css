@@ -1,0 +1,52 @@
+.rs-signUp.rs-modal-content {
+  max-width: 600px;
+  padding: 50px 54px;
+  margin: 0 auto;
+  font-family: 'Circe';
+  color: #000000;
+  font-size: 16px;
+}
+.rs-signUp.rs-modal-content .rs-modal-header h4 {
+  font-family: 'Circe Bold';
+  font-size: 28px;
+  line-height: 20px;
+  color: #000000;
+  overflow: visible;
+}
+.rs-signUp.rs-modal-content .rs-modal-header .rs-btn-close {
+  background-image: url('../../assets//closeForm.png');
+  width: 32px;
+  height: 32px;
+}
+.rs-signUp.rs-modal-content .rs-modal-header .rs-btn-close .rs-icon {
+  display: none;
+}
+
+.rs-signUp.rs-modal-content .rs-modal-body {
+  overflow: visible !important;
+}
+
+.rs-signUp.rs-modal-content .rs-modal-footer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.rs-signUp.rs-modal-content .rs-modal-footer button {
+  padding: 14px 25px;
+  background-color: #004dd5;
+  border-radius: 4px;
+  color: #fff;
+
+  text-align: left;
+  font-family: 'Circe Bold';
+}
+.rs-signUp.rs-modal-content .rs-modal-body {
+  max-height: 100% !important;
+}
+
+@media (max-width: 768px) {
+  .rs-signUp.rs-modal-content {
+    padding: 25px;
+  }
+}

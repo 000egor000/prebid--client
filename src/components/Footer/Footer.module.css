@@ -1,0 +1,194 @@
+.footer {
+  background-color: #002d6e;
+  height: auto;
+  overflow: hidden;
+  color: #ffff;
+}
+.footer .innerFooter {
+  padding: 40px 0 28px;
+}
+.footer .top {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  border-bottom: 1px solid #fff;
+}
+
+.footer .top .itemInfo {
+  position: relative;
+  color: #ffffff99;
+  margin-bottom: 50px;
+  margin-right: 186px;
+}
+.footer .top .itemInfo:last-child {
+  margin-right: 0;
+}
+.footer .top .itemInfo::after {
+  content: '';
+  position: absolute;
+  top: 20%;
+  right: -93px;
+  width: 1px;
+  height: 116px;
+  background-color: #ffff;
+}
+.footer .top .itemInfo:last-child::after {
+  display: none;
+}
+.footer .top .itemInfo p {
+  color: #ffff;
+  text-align: left;
+  margin-bottom: 15px;
+  font-family: 'Circe Bold';
+}
+.footer .bottom {
+  font-family: 'Circe Bold';
+}
+
+.footer .top .itemInfo ul {
+  /* width: 100%; */
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.footer .top .itemInfo li {
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.footer .top .itemInfo li:last-child {
+  margin-bottom: 0;
+}
+
+.footer .top .itemInfo li a {
+  text-decoration: none;
+  color: #ffffff99;
+}
+.footer .bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+  margin-top: 23px;
+}
+
+.footer .bottom .socialGroup {
+  display: flex;
+  align-items: center;
+}
+.footer .bottom .socialGroup {
+  cursor: pointer;
+}
+
+@media (max-width: 1429px) {
+  .footer .top .itemInfo:nth-child(4)::after {
+    display: none;
+  }
+}
+@media (max-width: 1309px) {
+  .footer .top .itemInfo:nth-child(4n)::after {
+    display: none;
+  }
+  .footer .top .itemInfo:nth-child(4n) {
+    margin-right: 100px;
+  }
+}
+@media (max-width: 1222px) {
+  .footer .top .itemInfo:nth-child(4n) {
+    margin-right: 186px;
+  }
+  .footer .top .itemInfo:nth-child(4n)::after {
+    display: block;
+  }
+  .footer .top .itemInfo:nth-child(3n)::after {
+    display: none;
+  }
+}
+@media (max-width: 1024px) {
+  .footer .top .itemInfo:nth-child(4n)::after {
+    display: block;
+  }
+  .footer .top .itemInfo:nth-child(3n)::after {
+    display: none;
+  }
+}
+@media (max-width: 1001px) {
+  .footer .top .itemInfo:nth-child(3n) {
+    margin-right: 0;
+  }
+}
+@media (max-width: 816px) {
+  .footer .top .itemInfo:nth-child(2n)::after {
+    display: none;
+  }
+  .footer .top .itemInfo:nth-child(2n) {
+    margin-right: 186px;
+  }
+
+  .footer .top .itemInfo:nth-child(3n)::after {
+    display: block;
+  }
+  .footer .top .itemInfo:nth-child(3n) {
+    margin-right: 186px;
+  }
+
+  .footer .top .itemInfo:nth-child(4n) {
+    margin-right: 186px;
+  }
+}
+@media (max-width: 695px) {
+  .footer .top .itemInfo:nth-child(4n) {
+    margin-right: 70px;
+  }
+  .footer .top .itemInfo:nth-child(2) {
+    margin-right: 0;
+  }
+}
+@media (max-width: 589px) {
+  .footer .top .itemInfo:nth-child(4n) {
+    margin-right: 0;
+  }
+}
+@media (max-width: 508px) {
+  .footer .top {
+    flex-direction: column;
+  }
+  .footer .top .itemInfo ul {
+    width: 100%;
+    text-align: left;
+  }
+  .footer .top .itemInfo {
+    border-bottom: 1px solid #fff;
+    width: 100%;
+    padding-bottom: 22px;
+    margin-bottom: 22px;
+  }
+  .footer .top .itemInfo:last-child {
+    border-bottom: 0;
+  }
+
+  .footer .top .itemInfo:nth-child(1n)::after,
+  .footer .top .itemInfo:nth-child(2n)::after,
+  .footer .top .itemInfo:nth-child(3n)::after,
+  .footer .top .itemInfo:nth-child(4n)::after,
+  .footer .top .itemInfo:nth-child(5n)::after {
+    display: none;
+  }
+
+  .footer .top .itemInfo:nth-child(1n),
+  .footer .top .itemInfo:nth-child(2n),
+  .footer .top .itemInfo:nth-child(3n),
+  .footer .top .itemInfo:nth-child(4n),
+  .footer .top .itemInfo:nth-child(5n) {
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
+@media (max-width: 388px) {
+  .footer .top .itemInfo:nth-child(1n),
+  .footer .top .itemInfo:nth-child(2n),
+  .footer .top .itemInfo:nth-child(3n),
+  .footer .top .itemInfo:nth-child(4n),
+  .footer .top .itemInfo:nth-child(5n) {
+    margin-right: 0;
+  }
+}

@@ -1,0 +1,45 @@
+.blockfilter {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+.blockfilter .dateFilter {
+  display: flex;
+  align-items: baseline;
+}
+.blockfilter .dateFilter span {
+  color: #000;
+  margin-right: 24px;
+  cursor: pointer;
+}
+.blockfilter .dateFilter label span {
+  margin: 0 24px;
+  position: relative;
+}
+.blockfilter .dateFilter label span::after {
+  content: '';
+  background-color: #000;
+  width: 1px;
+  height: -webkit-fill-available;
+  position: absolute;
+  top: 0;
+  left: -24px;
+}
+
+.blockfilter ul.filter {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 32px;
+}
+.blockfilter ul.filter li {
+  margin-right: 16px;
+  border-radius: 40px;
+  padding: 12px 20px;
+  cursor: pointer;
+}
+.blockfilter ul.filter li:last-child {
+  margin-right: 0;
+}

@@ -1,0 +1,33 @@
+.header {
+  max-height: 136px;
+  height: 100%;
+  background-color: #f0f5ff;
+}
+.header .innerHeader {
+  display: flex;
+
+  min-height: 56px;
+  height: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+}
+
+.header .innerHeader .leftSpace {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.header .innerHeader .rightSpace label {
+  margin-right: 24px;
+}
+.header .innerHeader .rightSpace label span {
+  margin-right: 16px;
+}
+
+@media (max-width: 1024px) {
+  .header .innerHeader {
+    display: none;
+  }
+}

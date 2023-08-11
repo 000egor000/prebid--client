@@ -1,0 +1,44 @@
+.filterStatus {
+  margin-bottom: 32px;
+  cursor: pointer;
+}
+.filterStatus .innerFilterStatus {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  color: #ffff;
+}
+
+.filterStatus .innerFilterStatus .item {
+  width: 100%;
+  max-width: 360px;
+  height: 100%;
+  max-height: 65px;
+  background-color: #3ca0ea;
+  border-radius: 8px;
+  padding: 16px;
+  margin-right: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.filterStatus .innerFilterStatus .item:first-child {
+  background-color: #0050cf;
+}
+.filterStatus .innerFilterStatus .item:last-child {
+  background-color: #757bf0;
+
+  margin-right: 0;
+}
+
+.filterStatus .innerFilterStatus .item span:first-child {
+  width: 100%;
+  max-width: 54px;
+  height: 100%;
+  max-height: 48px;
+  border: 1px solid #ffffff1a;
+  border-radius: 8px;
+  padding: 10px 16px;
+  background-color: #ffffff1a;
+  margin-right: 12px;
+}

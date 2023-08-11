@@ -1,0 +1,140 @@
+.contentRates {
+  width: 50%;
+  max-width: 740px;
+  height: auto;
+  margin-bottom: 24px;
+}
+
+.contentRates .innerContentRates {
+  border: 1px solid #d3d8e6;
+  border-radius: 12px;
+  overflow: hidden;
+}
+.contentRates .innerContentRates .first {
+  display: flex;
+
+  max-height: 176px;
+  min-height: 176px;
+  height: 100%;
+}
+
+.contentRates .innerContentRates .left {
+  width: 35%;
+}
+.contentRates .innerContentRates .left img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+
+.contentRates .innerContentRates .right {
+  padding: 4px 24px;
+  width: 65%;
+}
+.contentRates .innerContentRates .right .top {
+  margin: 19px 0;
+}
+.contentRates .innerContentRates .right .top h3 {
+  margin-bottom: 8px;
+}
+.contentRates .innerContentRates .right .top span.value {
+  font-weight: 400;
+  color: #0f0f14;
+}
+
+.contentRates .innerContentRates .right .top h3,
+.contentRates .innerContentRates .right .top p {
+  text-align: left;
+  font-size: 18px;
+
+  font-family: 'Circe Bold';
+  color: #000;
+
+  line-height: 24px;
+}
+
+.contentRates .innerContentRates .right .middle {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.contentRates .innerContentRates .right .middle .one .item:first-child span {
+  color: #b9212e;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.contentRates .innerContentRates .right .middle .one,
+.contentRates .innerContentRates .right .middle .two {
+  display: flex;
+  /* justify-content: space-between; */
+  color: #6b7a99;
+}
+
+.contentRates .innerContentRates .right .middle .item {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contentRates .innerContentRates .right .middle .item:first-child {
+  border-right: 1px solid #d9d9d9;
+  padding-right: 24px;
+}
+.contentRates .innerContentRates .right .middle .item:last-child {
+  border-right: 0;
+  padding-left: 24px;
+}
+
+.contentRates .innerContentRates .right .bottom {
+  display: flex;
+  align-items: center;
+}
+.contentRates .innerContentRates .right .bottom .rates,
+.contentRates .innerContentRates .right .bottom .dateBuy {
+  width: 50%;
+  color: #000;
+
+  font-family: 'Circe Bold';
+}
+.contentRates .innerContentRates .right .bottom .rates {
+  padding-right: 24px;
+}
+.contentRates .innerContentRates .right .bottom .dateBuy {
+  padding-left: 24px;
+}
+.contentRates .innerContentRates .second {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  padding: 25px 15px;
+}
+
+.contentRates .innerContentRates .second ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+.contentRates .innerContentRates .second ul:first-child {
+  margin-right: 25px;
+}
+
+.contentRates .innerContentRates .second ul li {
+  max-width: 250px;
+  width: 100%;
+  border-bottom: 1px solid #6b7a99;
+  color: #0050cf;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.contentRates .innerContentRates .second ul li img {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}

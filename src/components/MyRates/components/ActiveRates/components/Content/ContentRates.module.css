@@ -1,0 +1,117 @@
+.contentRates {
+  width: 50%;
+  max-width: 740px;
+  height: auto;
+  margin-bottom: 24px;
+}
+
+.contentRates .innerContentRates {
+  display: flex;
+  border: 1px solid #d3d8e6;
+  border-radius: 12px;
+  overflow: hidden;
+  max-height: 176px;
+  height: 100%;
+}
+.contentRates .innerContentRates .left {
+  width: 35%;
+}
+.contentRates .innerContentRates .left img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+.contentRates .innerContentRates .right {
+  padding: 12px 32px;
+  width: 65%;
+}
+.contentRates .innerContentRates .right .top h3 {
+  text-align: left;
+  font-size: 18px;
+
+  font-family: 'Circe Bold';
+  color: #000;
+}
+.contentRates .innerContentRates .right .top ul,
+.contentRates .innerContentRates .right .bottom ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 14px;
+  color: #6b7a99;
+  flex-wrap: wrap;
+}
+
+.contentRates .innerContentRates .right .top ul li:first-child {
+  /* margin-right: 16px; */
+  border-right: 1px solid #6b7a99;
+  padding-right: 8px;
+}
+.contentRates .innerContentRates .right .top ul li:last-child {
+  padding-left: 8px;
+}
+.contentRates .innerContentRates .right .top ul li span:last-child {
+  margin-left: 8px;
+  color: #0f0f14;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.contentRates .innerContentRates .right .bottom ul li span:first-child {
+  color: #fff;
+  font-size: 12px;
+
+  font-family: 'Circe Bold';
+  padding: 6px 8px;
+  border-radius: 4px;
+  margin-right: 16px;
+}
+.contentRates .innerContentRates .right .bottom ul li span:last-child {
+  font-size: 16px;
+  font-weight: 400;
+}
+.contentRates .innerContentRates .right .bottom ul li span:last-child span {
+  font-family: 'Circe Bold';
+  color: #000;
+  background: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contentRates .innerContentRates .right .bottom .second {
+  display: flex;
+  align-items: center;
+}
+.contentRates .innerContentRates .right .bottom .second input {
+  width: 100%;
+  max-width: 140px;
+  padding: 8px 24px;
+}
+
+.contentRates .innerContentRates .right .bottom .second button {
+  background-color: #004dd5;
+  padding: 8px 24px;
+  color: #fff;
+}
+.contentRates .innerContentRates .right .bottom .second button:last-child {
+  margin-left: 16px;
+}
+
+.contentRates .innerContentRates .right .bottom .second button.btnPlus,
+.contentRates .innerContentRates .right .bottom .second button.btnMinus {
+  background: none;
+  padding: 0;
+}
+
+.contentRates .innerContentRates .right .bottom .second button.btnMinus {
+  margin: 0 8px;
+}
+
+/* .contentRates .innerContentRates .right .top ul li span {
+  width: 65%;
+} */
+
+/* second */

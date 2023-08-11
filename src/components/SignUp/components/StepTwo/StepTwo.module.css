@@ -1,0 +1,64 @@
+.stepTwo {
+}
+
+.stepTwo .innerStepTwo {
+}
+
+.stepTwo .innerStepTwo .twoPart {
+  display: flex;
+  flex-direction: column;
+}
+
+.stepTwo .innerStepTwo .twoPart label {
+  margin-bottom: 16px;
+}
+.stepTwo .innerStepTwo .twoPart label span {
+  margin-bottom: 8px;
+}
+.stepTwo .innerStepTwo .twoPart div.noteItem {
+  display: flex;
+  align-items: flex-start;
+}
+
+.stepTwo .innerStepTwo .twoPart label input {
+  border-radius: 4px;
+  min-height: 50px;
+  height: 100%;
+}
+
+.stepTwo .innerStepTwo .twoPart div.noteItem div[class='rs-checkbox'] {
+  top: -5px;
+  left: -10px;
+}
+.stepTwo .innerStepTwo .twoPart div.noteItem div[class='rs-checkbox'],
+.stepTwo
+  .innerStepTwo
+  .twoPart
+  div.noteItem
+  div[class='rs-checkbox rs-checkbox-checked'] {
+  top: -5px;
+  left: -10px;
+}
+
+.stepTwo
+  .innerStepTwo
+  .twoPart
+  div.noteItem
+  div[class='rs-checkbox']
+  div[class='rs-checkbox-checker'],
+.stepTwo
+  .innerStepTwo
+  .twoPart
+  div.noteItem
+  div[class='rs-checkbox rs-checkbox-checked']
+  div[class='rs-checkbox-checker'] {
+  padding-left: 25px !important;
+}
+
+.stepTwo .innerStepTwo .twoPart div.noteItem a {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.stepTwo .innerStepTwo .twoPart div.noteItem a {
+  margin-left: 5px;
+}

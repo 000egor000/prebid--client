@@ -1,0 +1,159 @@
+.filter {
+}
+.filter .innerFilter {
+  border: 1px solid #d3d8e5;
+  border-radius: 8px;
+}
+.filter .innerFilter ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+  padding: 0 5px;
+  margin: 0;
+  color: #000;
+}
+
+.filter .innerFilter ul li.customLi {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: inherit;
+  padding: 5px 10px;
+  color: #3d434f;
+}
+.filter
+  .innerFilter
+  ul
+  li.customLi
+  div[class='rs-picker rs-picker-select rs-picker-default rs-picker-toggle-wrapper rs-picker-cleanable']:first-child {
+  margin-right: 36px;
+  position: relative;
+}
+
+.filter
+  .innerFilter
+  ul
+  li.customLi
+  div[class='rs-picker rs-picker-select rs-picker-default rs-picker-toggle-wrapper rs-picker-cleanable']::after {
+  content: '';
+  width: 16px;
+  height: 1px;
+  background-color: #6b7a99;
+  position: absolute;
+  top: 50%;
+  right: -45%;
+}
+
+.filter .innerFilter button {
+  background-color: #0050cf;
+  padding: 12px 56px;
+  margin: 12px 10px;
+  color: #fff;
+  border-radius: 4px;
+  font-family: 'Circe Bold';
+  width: -moz-fit-content;
+  width: -webkit-fill-available;
+}
+
+.filter .innerFilter span[class='rs-picker-toggle-placeholder'],
+.filter .innerFilter ul li.customLi label {
+  color: #3d434f;
+  font-size: 16px;
+}
+.filter .innerFilter div[class='rs-stack-item'] svg {
+  width: 24px;
+  height: 24px;
+}
+
+.filter .innerFilter ul li.customLi div[class='rs-stack-item'] svg {
+  width: 18px;
+  height: 18px;
+}
+
+.filter
+  .innerFilter
+  ul
+  li
+  div[class='rs-picker rs-picker-select rs-picker-subtle rs-picker-toggle-wrapper rs-picker-cleanable'],
+.filter .innerFilter ul li div[class='rs-input-group'],
+.filter .innerFilter ul li div[class='rs-input-group rs-input-group-focus'],
+.filter .innerFilter ul li.customLi {
+  width: 296px;
+  border-bottom: 1px solid #d3d8e6;
+}
+
+.filter .innerFilter ul li div[class='rs-picker-toggle rs-btn rs-btn-default'] {
+  padding: 5px;
+}
+
+/* 
+.filter .innerFilter div[class='rs-picker-toggle rs-btn rs-btn-subtle']:hover,
+.filter .innerFilter div[class='rs-picker-toggle-active']:active,
+.filter
+  .innerFilter
+  div[class='rs-picker-toggle rs-picker-toggle-active rs-btn rs-btn-subtle']:focus {
+  background: none !important;
+} */
+/* rs-picker-toggle rs-btn rs-btn-subtle */
+@media (max-width: 1440px) {
+  .filter
+    .innerFilter
+    ul
+    li
+    div[class='rs-picker rs-picker-select rs-picker-subtle rs-picker-toggle-wrapper rs-picker-cleanable'],
+  .filter .innerFilter ul li div[class='rs-input-group'],
+  .filter .innerFilter ul li div[class='rs-input-group rs-input-group-focus'],
+  .filter .innerFilter ul li.customLi {
+    width: 262px;
+  }
+
+  .filter .innerFilter ul li.customLi {
+    flex-direction: column;
+  }
+
+  /* .filter
+    .innerFilter
+    ul
+    li.customLi
+    div[class='rs-picker rs-picker-select rs-picker-default rs-picker-toggle-wrapper rs-picker-cleanable']::after {
+    display: none;
+  } */
+
+  .filter
+    .innerFilter
+    ul
+    li.customLi
+    div[class='rs-picker rs-picker-select rs-picker-default rs-picker-toggle-wrapper rs-picker-cleanable']::after {
+    content: 'от';
+
+    position: absolute;
+    top: 20%;
+    right: 125%;
+    width: 0;
+    color: #a2a9b8;
+  }
+
+  .filter
+    .innerFilter
+    ul
+    li.customLi
+    div[class='rs-picker rs-picker-select rs-picker-default rs-picker-toggle-wrapper rs-picker-cleanable']::before {
+    content: 'до';
+
+    position: absolute;
+    top: 20%;
+    right: -50%;
+    color: #a2a9b8;
+  }
+
+  .filter .innerFilter ul li.customLi {
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 10px;
+  }
+  .filter .innerFilter ul li div[id='Odometer'],
+  .filter .innerFilter ul li div[id='year'] {
+    padding-left: 18px !important;
+  }
+}

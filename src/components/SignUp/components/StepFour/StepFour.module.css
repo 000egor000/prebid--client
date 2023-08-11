@@ -1,0 +1,23 @@
+.stepFour {
+}
+label span {
+  display: inline-block;
+  margin-bottom: 8px;
+}
+
+.stepFour .innerStepFour .twoPart label span {
+  display: inline-block;
+  margin-bottom: 8px;
+}
+.stepFour .innerStepFour .twoPart label input {
+  border-radius: 4px;
+  min-height: 50px;
+  height: 100%;
+}
+.stepFour .innerStepFour .twoPart label {
+  display: block;
+  margin-bottom: 24px;
+}
+.stepFour .innerStepFour .twoPart label:last-child {
+  margin-bottom: 0;
+}

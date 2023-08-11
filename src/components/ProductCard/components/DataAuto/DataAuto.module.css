@@ -1,0 +1,104 @@
+.dataAuto {
+  /* max-width: 424px; */
+  /* width: 40%; */
+  color: #000;
+}
+.dataAuto .innerDataAuto {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.dataAuto .innerDataAuto .characteristics {
+  width: 100%;
+}
+
+.dataAuto .innerDataAuto .item {
+  border: 1px solid #d3d8e5;
+  border-radius: 4px;
+  width: 100%;
+  margin-bottom: 24px;
+}
+
+.dataAuto .innerDataAuto h3 {
+  background-color: #f0f5ff;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+  padding: 10px 12px;
+}
+.dataAuto .innerDataAuto ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 12px;
+}
+.dataAuto .innerDataAuto ul li {
+  width: 100%;
+  display: flex;
+  text-align: left;
+  align-items: center;
+  border-bottom: 1px solid #6b7a99;
+  padding: 12px 0;
+}
+.dataAuto .innerDataAuto ul span {
+  width: 40%;
+}
+
+.dataAuto .innerDataAuto ul span.key span {
+  color: #000;
+}
+.dataAuto .innerDataAuto ul li span:first-child {
+  color: #6b7a99;
+}
+
+.dataAuto .innerDataAuto ul span.key span,
+.dataAuto .innerDataAuto ul span.report {
+  color: #004dd5;
+  border-bottom: 1px solid #004dd5;
+  cursor: pointer;
+  width: fit-content;
+}
+
+.dataAuto .innerDataAuto ul li:first-child {
+  padding-top: 0;
+}
+
+.dataAuto .innerDataAuto ul li:last-child {
+  border: 0;
+  padding-bottom: 0;
+}
+
+.dataAuto .innerDataAuto ul li span.vinCopy {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: fit-content;
+}
+.dataAuto .innerDataAuto ul li span.vinCopy span {
+  color: #000;
+}
+.dataAuto .innerDataAuto ul li span.vinCopy img {
+  margin-left: 15px;
+  cursor: pointer;
+}
+.dataAuto .innerDataAuto button.viewBlock {
+  display: none;
+  align-items: center;
+  justify-content: space-between;
+  background: none;
+  border-bottom: 1px solid #0065b0;
+  color: #0065b0;
+  width: 100%;
+  margin-bottom: 24px;
+  font-size: 16px;
+  padding-bottom: 12px;
+}
+
+@media (max-width: 768px) {
+  .dataAuto .innerDataAuto button.viewBlock {
+    display: flex;
+  }
+}

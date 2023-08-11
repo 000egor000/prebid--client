@@ -1,0 +1,109 @@
+.rs-logIn.rs-modal-content {
+  max-width: 600px;
+  padding: 70px 100px;
+  margin: 0 auto;
+  font-family: 'Circe';
+  color: #000000;
+}
+.rs-logIn.rs-modal-content .rs-modal-header h4 {
+  font-family: 'Circe Bold';
+  font-size: 28px;
+  line-height: 20px;
+  overflow: visible;
+}
+.rs-logIn.rs-modal-content .rs-modal-header .rs-btn-close {
+  background-image: url('../../assets//closeForm.png');
+  width: 32px;
+  height: 32px;
+}
+.rs-logIn.rs-modal-content .rs-modal-header .rs-btn-close .rs-icon {
+  display: none;
+}
+
+.rs-logIn.rs-modal-content .rs-modal-body .groupIdentification {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.rs-logIn.rs-modal-content .rs-modal-body .groupIdentification .Iam {
+  padding: 10px 48px;
+  cursor: pointer;
+  /* margin-bottom: 32px; */
+  font-family: 'Circe Bold';
+}
+.rs-logIn.rs-modal-content .rs-modal-body .groupInput {
+  display: flex;
+  flex-direction: column;
+}
+
+.rs-logIn.rs-modal-content .rs-modal-body .groupInput label input {
+  border-radius: 4px;
+  min-height: 50px;
+  height: 100%;
+}
+
+.rs-logIn.rs-modal-content .rs-modal-body .groupInput input {
+  max-height: 48px;
+}
+.rs-logIn.rs-modal-content .rs-modal-body .groupInput label:nth-child(2n) {
+  margin-bottom: 24px;
+}
+.rs-logIn.rs-modal-content .rs-modal-body .groupInput label span {
+  margin-bottom: 8px;
+  color: #0f0f14;
+
+  font-size: 18px;
+}
+.rs-logIn.rs-modal-content .rs-modal-body .groupInput label.notAccount {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+.rs-logIn.rs-modal-content .rs-modal-body .groupInput label.notAccount span {
+  margin-right: 15px;
+}
+
+.rs-logIn.rs-modal-content .rs-modal-body .groupInput label.notAccount button {
+  padding: 5px 16px;
+  background-color: #66c314;
+  border-radius: 4px;
+  color: #fff;
+
+  font-size: 16px;
+  font-family: 'Circe Bold';
+}
+
+.rs-logIn.rs-modal-content .rs-modal-footer .groupBtn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 12px;
+}
+
+.rs-logIn.rs-modal-content .rs-modal-footer .groupBtn button[type='button'] {
+  color: #3a74d0;
+  border: none;
+  background: none;
+  border-bottom: 1px solid #004dd5;
+  font-size: 16px;
+}
+.rs-logIn.rs-modal-content .rs-modal-footer .groupBtn button[type='submit'] {
+  padding: 14px 25px;
+  background-color: #004dd5;
+  border-radius: 4px;
+  color: #fff;
+  font-family: 'Circe Bold';
+}
+.rs-logIn.rs-modal-content .rs-modal-body {
+  max-height: 100% !important;
+}
+
+@media (max-width: 768px) {
+  .rs-logIn.rs-modal-content {
+    padding: 35px 50px;
+  }
+}

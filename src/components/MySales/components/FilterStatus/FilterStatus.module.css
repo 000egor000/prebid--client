@@ -1,0 +1,65 @@
+.filterStatus {
+  /* margin-bottom: 32px; */
+  cursor: pointer;
+}
+.filterStatus .innerFilterStatus {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  color: #ffff;
+}
+
+.filterStatus .innerFilterStatus .item {
+  width: 100%;
+  max-width: 288px;
+  min-width: 165px;
+  height: 100%;
+  max-height: 65px;
+  border-radius: 8px;
+  padding: 16px;
+  margin-right: 24px;
+  margin-bottom: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.filterStatus .innerFilterStatus .item:nth-child(1n) {
+  background-color: #66c314;
+}
+.filterStatus .innerFilterStatus .item:nth-child(2n) {
+  background-color: #0050cf;
+}
+.filterStatus .innerFilterStatus .item:nth-child(3n) {
+  background-color: #3ca0ea;
+}
+.filterStatus .innerFilterStatus .item:nth-child(4n) {
+  background-color: #757bf0;
+}
+
+.filterStatus .innerFilterStatus .item span:first-child {
+  width: 100%;
+  max-width: 54px;
+  height: 100%;
+  max-height: 48px;
+  border: 1px solid #ffffff1a;
+  border-radius: 8px;
+  padding: 10px 16px;
+  background-color: #ffffff1a;
+  margin-right: 12px;
+}
+.filterStatus .innerFilterStatus .item:last-child {
+  margin-right: 0;
+}
+
+@media (max-width: 768px) {
+  .filterStatus .innerFilterStatus .item:nth-child(2n) {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 375px) {
+  .filterStatus .innerFilterStatus .item {
+    margin-right: 0;
+  }
+}
